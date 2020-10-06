@@ -1,0 +1,133 @@
+{
+  "main": {
+    "name": "Rick Felix",
+    "occupation": "ReactJS Developer & FrontEnd Specialist",
+    "description": "Full Stack React Developer by Day, Guitar Player by Night",
+    "image": "IG-Rick.jpeg",
+    "bio": "My name is Rick, I'm a Full Stack ReactJS Developer. ",
+    "contactmessage": "Get in touch with me .",
+    "email": "felirick@gmail.com",
+    "phone": "760 840-7144",
+    "address": {
+      "street": "2010 Avenida La Posta",
+      "city": "Encinitas",
+      "state": "CA",
+      "zip": "92024"
+    },
+    "website": "https://www.stradakatportfolio.com/",
+    "resumedownload": "https://drive.google.com/file/d/1y6SNRZ7pEyts11tq4ZEQyWR18oqGGm63/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/rick.felix.54966",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/felixrick/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/stradakat/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Stradakat",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are some bar graphs showing indicating skill level",
+    "education": [
+      {
+        "school": "UCSD Extension",
+        "degree": "Certificate in Full Stack Web Development",
+        "graduated": "September 2017",
+        "description": "Graduated with Distinction"
+      },
+      {
+        "school": "San Diego State University",
+        "degree": "Bachelors in Liberal Arts",
+        "graduated": "May 1999",
+        "description": "Graduated with an emphasis in Education"
+      }
+    ],
+    "work": [
+      {
+        "company": "Willdan Group, Inc.",
+        "title": "Principal Front End Engineer & React Specialist",
+        "years": "September 2019 - April 2020",
+        "description": "Designed & Developed enterprise software for the energy industry. Created a web application that provided comprehensive analytics for contractors and energy customers, enabling them to optimize efficiency and minimize cost.  Collaborated with team leads & members daily following Agile Software Development process. Scheduled and documented software delivery using JIRA and Confluence.  Created React web applications in Visual Studio Code using JSX, TypeScript, amCharts4, JavaScript, & NodeJS. Hosted & Deployed server-less React Applications in AWS."
+      },
+      {
+        "company": "Vanguard Enterprises",
+        "title": "Full Stack Software Engineer",
+        "years": "Feb 2018 - September 2019",
+        "description": "Created web & mobile enterprise applications for several sectors of a retail company with over 90 stores worldwide providing real time metrics on sales, inventory, and shipping.  Managed Shopify Site using Liquid to customize pages and client interaction.  Created React UI web application in Visual Studio Code using Vue, HTML5, CSS3, JavaScript, PHP, NodeJS. Mobile applications were made using Flutter Framework."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Google/Mozilla Dev Tools",
+        "level": "85%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Facebook Clone with React",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "facebook-clone.png",
+        "url": "https://www.youtube.com"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "airbnb-clone.jpeg",
+        "url": "https://www.youtube.com"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "Facebook Clone built with ReactJS",
+        "image": "netflix-clone.jpeg",
+        "url": "https://www.youtube.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "As the front end developer, Rick was responsible for taking conceptual designs from the UI/UX designer and bringing them to life in React. Rick was detail oriented in following the designs submitted, and when the designs didn't work out, figured out creative ways to achieve the same results. He is always eager to find tools to help the development process, and to learn new skills along the way. Because the project he worked on was for a visualization tool and he was the chief front-end developer, his efforts went a long way towards the success of the team.",
+        "user": "Jennifer Worrall - Director at Willdan"
+      },
+      {
+        "text": "Rick Felix was a joy to have, both as a part of the team and as a problem solver. He consistently excelled at tackling new concepts and ideas to solve whatever roles or functions we threw at him and was able to pivot his method of approach without losing stride.",
+        "user": "Dave Thomas - Technical Lead at Vanguard Enterprises"
+      }
+    ]
+  }
+}
