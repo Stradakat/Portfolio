@@ -2,9 +2,9 @@
   "main": {
     "name": "Rick Felix",
     "occupation": "FrontEnd Specialist in Shopify Plus and ReactJS",
-    "description": "Full Stack React Developer by Day, Guitar Player by Night",
+    "description": "Full Stack Shopify/React Developer",
     "image": "IG-Rick.jpeg",
-    "bio": "My name is Rick, I'm a Full Stack ReactJS Developer. ",
+    "bio": "My name is Rick, I'm a Full Stack Shopify/ReactJS Developer. ",
     "contactmessage": "Get in touch with me .",
     "email": "felirick@gmail.com",
     "phone": "760 840-7144",
@@ -15,13 +15,8 @@
       "zip": "92024"
     },
     "website": "https://www.stradakatportfolio.com/",
-    "resumedownload": "https://drive.google.com/file/d/1y6SNRZ7pEyts11tq4ZEQyWR18oqGGm63/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1_Tc-E520oTMvTGQuO8T-SgZU9RF3FTow/view?usp=drive_link",
     "social": [
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/rick.felix.54966",
-        "className": "fa fa-facebook"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/felixrick/",
@@ -52,7 +47,7 @@
         "school": "San Diego State University",
         "degree": "Bachelors in Liberal Arts",
         "graduated": "May 1999",
-        "description": "Emphasis in Education"
+        "description": "Graduated with emphasis on education"
       }
     ],
     "work": [
@@ -144,6 +139,12 @@
         "category": "Petfood Brand Build with ReactJS on Shopify",
         "image": "JamesWellbeloved.jpg",
         "url": "https://wellbeloved.com/"
+      },
+      {
+        "title": "Lovebug Cat Food",
+        "category": "Shopify Liquid Storefront",
+        "image": "LoveBug.jpg",
+        "url": "https://www.lovebugpetfood.com/"
       }
     ]
   },
