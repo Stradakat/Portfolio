@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Rick Felix",
-    "occupation": "ReactJS Developer & FrontEnd Specialist",
+    "occupation": "FrontEnd Specialist in Shopify Plus and ReactJS",
     "description": "Full Stack React Developer by Day, Guitar Player by Night",
     "image": "IG-Rick.jpeg",
     "bio": "My name is Rick, I'm a Full Stack ReactJS Developer. ",
@@ -46,16 +46,41 @@
         "school": "UCSD Extension",
         "degree": "Certificate in Full Stack Web Development",
         "graduated": "September 2017",
-        "description": "Graduated with Distinction"
+        "description": "Earned a Certificate from UCSD Extension."
       },
       {
         "school": "San Diego State University",
         "degree": "Bachelors in Liberal Arts",
         "graduated": "May 1999",
-        "description": "Graduated with an emphasis in Education"
+        "description": "Emphasis in Education"
       }
     ],
     "work": [
+      {
+        "company": "First and Third Agency, Inc. and Monochrome Inc.",
+        "title": "Front End Shopify Developer",
+        "years": "Aril 2023 - Present",
+        "description": "Collaborated on technical solutions for UI/Business Development. Developed for Shopify 2.0 using CLI. Created custom themes and applications for large-scale Shopify projects. Oversee website development, including content optimization and product catalog management. Collaborate with the marketing team on web content and report growth to the CFO/President. Achieve e-commerce sales growth targets. Track and analyze sales data using Google Analytics and other tools. Recommend and implement SEO strategies. Coordinate with external agencies and manage third-party app integrations. Support the strategic vision for the brand online. Develop and execute e-commerce plans focused on conversion optimization and visual enhancements. Stay updated on e-commerce and digital marketing trends. Troubleshoot system issues and improve applications. Design and maintain web pages and seasonal content."
+
+      },
+      {
+        "company": "MF Magnaflow, Inc.",
+        "title": "Front End Shopify Developer",
+        "years": "October 2022 - March 2023",
+        "description": "Delivered technical solutions for UI/Business Development requirements while minimizing technical debt. Developed solutions for Shopify 2.0 stores using CLI. Enhanced functionality and performance of e-commerce stores using a custom stack. Developed and executed e-commerce plans focused on conversion optimization and visual enhancements."
+      },
+      {
+        "company": "Blue Acorn ICI, Inc.",
+        "title": "Front End Shopify Developer",
+        "years": "October 2021 - Novebmer 2022",
+        "description": "Created technical solutions for Shopify 2.0 stores using CLI, meeting customer requirements and minimizing technical debt. Worked on large Shopify projects with one codebase and 36 URLs, with specific styling per URL. Integrated APIs to enhance Shopify Admin settings. Supported the strategic vision for the brand online."
+      },    
+      {
+        "company": "Monochrome, Inc.",
+        "title": "Full Stack Shopify Developer",
+        "years": "February 2021 - October 2021",
+        "description": "Optimized Shopify store performance for functionality and speed. Collaborated with teams to implement functionality based on analytics from Google Analytics and Facebook Pixel. Enhanced Shopify Admin settings and implemented design and functionality changes via Admin and CLI. Tracked and analyzed sales data using Google Analytics and other tools."
+      },
       {
         "company": "Willdan Group, Inc.",
         "title": "Principal Front End Engineer & React Specialist",
@@ -71,55 +96,67 @@
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "Shopify",
         "level": "100%"
+      },
+      {
+        "name": "Liquid",
+        "level": "95%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "95%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "Google Dev Tools",
+        "level": "90%"
       },
       {
         "name": "CSS",
         "level": "95%"
       },
       {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Google/Mozilla Dev Tools",
-        "level": "85%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "ReactJs",
+        "level": "90%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com"
+        "title": "Vici Collection Daily Drop",
+        "category": "Shopify Liquid Storefront",
+        "image": "vicidailydrop.jpg",
+        "url": "https://www.vicicollection.com/collections/the-daily-drop"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com"
+        "title": "Magnaflow Recycling for Refunds",
+        "category": "Magnaflow Recycle program built with ReactJS/Liquid",
+        "image": "Magnaflow2.jpg",
+        "url": "https://www.magnaflow.com/pages/recycling-for-refunds"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com"
+        "title": "James Wellbeloved Pet Food",
+        "category": "Petfood Brand Build with ReactJS on Shopify",
+        "image": "JamesWellbeloved.jpg",
+        "url": "https://wellbeloved.com/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
+      {
+        "text": "I am writing to highly recommend Rick Felix for any Front-End Shopify Developer position.  One of Rick’s standout qualities is his ability to develop technical solutions that not only meet customer requirements but also minimize technical debt. He played an integral role in implementing design and functionality changes to Shopify stores, demonstrating expertise in both the Shopify Admin interface and CLI. Rick consistently delivered high-quality work, showcasing his proficiency in utilizing APIs to provide solutions and integrating features seamlessly into the Shopify ecosystem. Prior to and since his tenure at Monochrome Inc., Rick held positions at reputable companies such as Blue Acorn ICI and MF-Magnaflow, where he continued to excel as a Front-End Shopify Developer. His contributions to these organizations further underscore his competence and adaptability in diverse work environments. In addition to his technical prowess, Rick possesses excellent communication skills and a collaborative spirit. He actively participated in cross-functional teams, effectively communicating ideas and collaborating on technical solutions that aligned with UI/Business Development requirements. Based on his exceptional performance and proven track record, I have no doubt that Rick will be a valuable asset to any team. He brings not only technical expertise but also a strong work ethic and a passion for delivering excellence in every project he undertakes. Please feel free to contact me if you require any further information or clarification regarding Rick’s qualifications and experience. I wholeheartedly recommend him for any Front-End Shopify Developer role and am confident he will exceed expectations.",
+        "user": "Chris Nebel - Creative Director/President Monochrome"
+      },
+      {
+        "text": "I am writing this letter to recommend Rick Felix for any position requiring expertise in Frontend Shopify Development. I have had the pleasure of working closely with Rick Felix at First and Third Agency for the past several months, and I can confidently attest to his front end skills, dedication, and professionalism. During his tenure at our agency, Rick consistently collaborated effectively with cross-functional teams to conceptualize and implement technical solutions that not only met the requirements of UI/Business Development but also minimized technical debt. In addition to his technical prowess, Rick possesses excellent communication skills and works effectively both independently and as part of a team. He is proactive in seeking feedback, open to collaboration, and consistently strives for excellence in every project undertaken.",
+        "user": "Brock Meltzer - CEO at First and Third, Inc."
+      },     
       {
         "text": "As the front end developer, Rick was responsible for taking conceptual designs from the UI/UX designer and bringing them to life in React. Rick was detail oriented in following the designs submitted, and when the designs didn't work out, figured out creative ways to achieve the same results. He is always eager to find tools to help the development process, and to learn new skills along the way. Because the project he worked on was for a visualization tool and he was the chief front-end developer, his efforts went a long way towards the success of the team.",
         "user": "Jennifer Worrall - Director at Willdan"
@@ -128,6 +165,8 @@
         "text": "Rick Felix was a joy to have, both as a part of the team and as a problem solver. He consistently excelled at tackling new concepts and ideas to solve whatever roles or functions we threw at him and was able to pivot his method of approach without losing stride.",
         "user": "Dave Thomas - Technical Lead at Vanguard Enterprises"
       }
+      
+      
     ]
   }
 }
