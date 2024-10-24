@@ -15,7 +15,7 @@
       "zip": "92024"
     },
     "website": "https://www.stradakatportfolio.com/",
-    "resumedownload": "https://drive.google.com/file/d/1_Tc-E520oTMvTGQuO8T-SgZU9RF3FTow/view?usp=drive_link",
+    "resumedownload": "https://drive.google.com/file/d/1iQMCv0o6uKDWS9S5-EL7qsJw9chpHdmF/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -51,6 +51,13 @@
       }
     ],
     "work": [
+      {
+        "company": "Uppabay",
+        "title": "Shopify Administrator / Developer",
+        "years": "October 2024 - Present",
+        "description": "Manage website content and product catalog for an e-commerce platform, ensuring accurate and up-to-date listings and site functionality. Handle system maintenance, code development, and troubleshooting; optimize checkout processes and payment systems; and assist in launching a Shopify store and transitioning to a new e-commerce platform."
+
+      },
       {
         "company": "First and Third Agency, Inc. and Monochrome Inc.",
         "title": "Front End Shopify Developer",
@@ -123,6 +130,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "4Moms.com Shopify Storefront",
+        "category": "Shopify Storefront",
+        "image": "4MomsPage.jpg",
+        "url": "https://www.vicicollection.com/collections/the-daily-drop"
+      },
+      {
         "title": "Vici Collection Daily Drop",
         "category": "Shopify Liquid Storefront",
         "image": "vicidailydrop.jpg",
@@ -139,12 +152,6 @@
         "category": "Petfood Brand Build with ReactJS on Shopify",
         "image": "JamesWellbeloved.jpg",
         "url": "https://wellbeloved.com/"
-      },
-      {
-        "title": "Lovebug Cat Food",
-        "category": "Shopify Liquid Storefront",
-        "image": "LoveBug.jpg",
-        "url": "https://www.lovebugpetfood.com/"
       }
     ]
   },
