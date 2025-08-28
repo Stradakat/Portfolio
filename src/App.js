@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import ReactGA from 'react-ga';
-import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -21,19 +20,17 @@ class App extends Component {
 
   }
 
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
+  async getResumeData(){
+    try {
+      const response = await fetch('/resumeData.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-    });
+      const data = await response.json();
+      this.setState({resumeData: data});
+    } catch (error) {
+      console.error('Error fetching resume data:', error);
+    }
   }
 
   componentDidMount(){

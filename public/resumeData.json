@@ -3,29 +3,22 @@
     "name": "Rick Felix",
     "occupation": "FrontEnd Specialist in Shopify Plus and ReactJS",
     "description": "Full Stack Shopify/React Developer",
-    "image": "IG-Rick.jpeg",
-    "bio": "My name is Rick, I'm a Full Stack Shopify/ReactJS Developer. ",
+    "image": "NewPortrait8.jpeg",
+    "bio": "I am a Certified Shopify Developer and full-stack engineer with 6+ years of experience building high-performance e-commerce platforms and React applications. Proven track record of driving revenue growth through innovative technical solutions, advanced SEO strategies, and data-driven optimizations for leading consumer brands. ",
     "contactmessage": "Get in touch with me .",
     "email": "felirick@gmail.com",
     "phone": "760 840-7144",
     "address": {
-      "street": "2010 Avenida La Posta",
       "city": "Encinitas",
-      "state": "CA",
-      "zip": "92024"
+      "state": "CA"
     },
     "website": "https://www.stradakatportfolio.com/",
-    "resumedownload": "https://drive.google.com/file/d/1iQMCv0o6uKDWS9S5-EL7qsJw9chpHdmF/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1y31qcSgtp43V7iRcWKClDHWM8j61oa-k/view?usp=sharing",
     "social": [
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/felixrick/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/stradakat/",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -61,7 +54,7 @@
       {
         "company": "First and Third Agency, Inc. and Monochrome Inc.",
         "title": "Front End Shopify Developer",
-        "years": "Aril 2023 - Present",
+        "years": "Aril 2023 - October 2024",
         "description": "Collaborated on technical solutions for UI/Business Development. Developed for Shopify 2.0 using CLI. Created custom themes and applications for large-scale Shopify projects. Oversee website development, including content optimization and product catalog management. Collaborate with the marketing team on web content and report growth to the CFO/President. Achieve e-commerce sales growth targets. Track and analyze sales data using Google Analytics and other tools. Recommend and implement SEO strategies. Coordinate with external agencies and manage third-party app integrations. Support the strategic vision for the brand online. Develop and execute e-commerce plans focused on conversion optimization and visual enhancements. Stay updated on e-commerce and digital marketing trends. Troubleshoot system issues and improve applications. Design and maintain web pages and seasonal content."
 
       },
@@ -103,19 +96,19 @@
       },
       {
         "name": "Liquid",
-        "level": "95%"
+        "level": "100%"
       },
       {
         "name": "JavaScript",
+        "level": "100%"
+      },
+      {
+        "name": "Dev Ops",
+        "level": "90%"
+      },
+      {
+        "name": "AI Dev Tools",
         "level": "95%"
-      },
-      {
-        "name": "Git",
-        "level": "90%"
-      },
-      {
-        "name": "Google Dev Tools",
-        "level": "90%"
       },
       {
         "name": "CSS",
@@ -133,7 +126,7 @@
         "title": "4Moms.com Shopify Storefront",
         "category": "Shopify Storefront",
         "image": "4MomsPage.jpg",
-        "url": "https://www.vicicollection.com/collections/the-daily-drop"
+        "url": "https://uppababy.com/4-moms/"
       },
       {
         "title": "Vici Collection Daily Drop",
