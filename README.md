@@ -17,10 +17,11 @@ A modern, responsive portfolio website built with React.js, showcasing professio
 - **Professional Typography** with optimized font loading
 
 ### 📱 Contact & Communication
-- **Netlify Forms Integration** for reliable contact form handling
-- **Spam Protection** with honeypot fields
-- **Email Notifications** sent directly to your inbox
+- **Google Apps Script Integration** for reliable contact form handling
+- **Direct Email Delivery** to felirick@gmail.com via Gmail
+- **Spam Protection** with Google's built-in filtering
 - **Form Validation** with real-time feedback
+- **Professional Email Format** with reply-to functionality
 
 ### 🚀 Performance & Optimization
 - **Optimized Build Process** with React Scripts
@@ -33,7 +34,7 @@ A modern, responsive portfolio website built with React.js, showcasing professio
 - **Frontend**: React.js 18, CSS3, HTML5
 - **Build Tool**: Create React App
 - **Deployment**: Netlify
-- **Forms**: Netlify Forms
+- **Contact Forms**: Google Apps Script + Gmail
 - **Styling**: Custom CSS with responsive design
 - **Icons**: Font Awesome, Fontello
 
@@ -45,6 +46,7 @@ Before running this application, ensure you have:
 - **npm** (v8 or higher)
 - **Git** for version control
 - **Modern web browser** (Chrome, Firefox, Safari, Edge)
+- **Google account** for Apps Script integration
 
 ## 🚀 Quick Start
 
@@ -86,7 +88,7 @@ Portfolio/
 ├── src/                   # Source code
 │   ├── Components/        # React components
 │   │   ├── About.js       # About section component
-│   │   ├── Contact.js     # Contact form component
+│   │   ├── Contact.js     # Contact form component (Google Apps Script)
 │   │   ├── Footer.js      # Footer component
 │   │   ├── Header.js      # Header/navigation component
 │   │   ├── Portfolio.js   # Portfolio projects component
@@ -96,6 +98,8 @@ Portfolio/
 │   ├── App.css            # Main application styles
 │   └── index.js           # Application entry point
 ├── netlify.toml           # Netlify deployment configuration
+├── google-apps-script.js  # Google Apps Script code for contact form
+├── GOOGLE_APPS_SCRIPT_SETUP.md # Setup guide for Google Apps Script
 ├── package.json            # Dependencies and scripts
 └── README.md              # This file
 ```
@@ -119,6 +123,65 @@ The portfolio content is managed through `public/resumeData.json`. Update this f
 - **Typography**: Adjust font families and sizes in CSS
 - **Responsive Breakpoints**: Update media queries as needed
 
+## 📧 Google Apps Script Contact Form
+
+### Overview
+
+The contact form uses **Google Apps Script** to handle form submissions and send emails directly to felirick@gmail.com via Gmail. This solution provides:
+
+- ✅ **100% Free** - No monthly costs or API limits
+- ✅ **Gmail Integration** - Emails sent directly to your inbox
+- ✅ **Google Infrastructure** - Reliable and secure
+- ✅ **No Redirects** - Form works smoothly without 404 errors
+- ✅ **Professional** - Clean, modern implementation
+
+### How It Works
+
+1. **User submits form** → Data sent to Google Apps Script web app
+2. **Script processes data** → Validates and formats the submission
+3. **Email sent** → Direct delivery to felirick@gmail.com via Gmail
+4. **Form resets** → Ready for next submission
+
+### Email Format
+
+```
+Subject: Portfolio Contact: [User's Subject]
+
+New message from your portfolio contact form:
+
+Name: [User's Name]
+Email: [User's Email]
+Subject: [User's Subject]
+Message: [User's Message]
+
+Timestamp: [Submission Time]
+
+---
+This message was sent from your portfolio website.
+```
+
+### Setup Instructions
+
+1. **Access Google Apps Script**: Go to [https://script.google.com/](https://script.google.com/)
+2. **Create New Project**: Copy code from `google-apps-script.js`
+3. **Deploy as Web App**: Configure with public access
+4. **Update Contact Component**: Replace `YOUR_SCRIPT_URL` with your web app URL
+5. **Test Form**: Verify emails are received at felirick@gmail.com
+
+### Files
+
+- **`google-apps-script.js`** - Complete Google Apps Script code
+- **`GOOGLE_APPS_SCRIPT_SETUP.md`** - Detailed setup guide
+- **`src/Components/Contact.js`** - React component with integration
+
+### Security Features
+
+- **Google's Infrastructure** - Enterprise-grade security
+- **Spam Protection** - Built-in Gmail filtering
+- **Rate Limiting** - Google Apps Script quotas
+- **Input Validation** - Client-side validation
+- **No Exposed Credentials** - Secure server-side processing
+
 ## 🌐 Deployment
 
 ### Netlify Deployment (Recommended)
@@ -138,12 +201,13 @@ The portfolio content is managed through `public/resumeData.json`. Update this f
 
 ## 📧 Contact Form Setup
 
-The contact form is automatically configured with Netlify Forms:
+The contact form is configured with Google Apps Script:
 
-1. **Form Detection**: Netlify automatically detects forms with `data-netlify="true"`
-2. **Spam Protection**: Honeypot field prevents bot submissions
-3. **Email Notifications**: Configure in Netlify dashboard
-4. **Form Submissions**: View all submissions in Netlify admin
+1. **Form Handling**: Google Apps Script processes form submissions
+2. **Email Delivery**: Direct delivery to felirick@gmail.com via Gmail
+3. **Spam Protection**: Google's built-in spam filtering
+4. **Form Submissions**: View all submissions in Gmail inbox
+5. **Reply Functionality**: Reply directly to sender's email address
 
 ## 🔧 Development
 
@@ -202,9 +266,10 @@ The portfolio is designed to work seamlessly across all devices:
 ## 🔒 Security
 
 - **HTTPS Only**: Secure connections enforced
-- **Form Validation**: Client and server-side validation
+- **Form Validation**: Client-side validation with Google Apps Script processing
 - **XSS Protection**: Built-in React XSS protection
-- **CSRF Protection**: Netlify Forms CSRF protection
+- **Google Infrastructure**: Enterprise-grade security for form processing
+- **No Exposed Credentials**: Secure server-side email handling
 
 ## 📊 Analytics & Monitoring
 
